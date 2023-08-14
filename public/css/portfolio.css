@@ -1,0 +1,11 @@
+#portfolio .portfolio-item-hide {
+  display: none;
+  -webkit-animation: itemDown 0.5s ease;
+  animation: itemDown 0.5s ease;
+}
+
+#portfolio .portfolio-item-show {
+  display: block;
+  -webkit-animation: showItem 0.5s ease;
+  animation: showItem 0.5s ease;
+}
